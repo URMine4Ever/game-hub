@@ -3,6 +3,7 @@ import useGames from "../hooks/useGames";
 import GameCard from "./GameCard";
 
 const GameGrid = () => {
+  //build hook
   const { games, error } = useGames();
   return (
     <>
